@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Logo Duitku v3: dompet krem dengan koin karamel, dikelilingi ayunan karamel dan krem.
+  Digambar ulang dari branding/duitku-logo-v3.webp; master desain: branding/duitku-icon.svg.
+  Path memakai koordinat gambar asli (1250 px), lalu diskalakan ke area aman ikon adaptif.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.078"
+        android:scaleY="0.078"
+        android:translateX="5.33"
+        android:translateY="2.91">
+        <!-- Ayunan krem luar -->
+        <path android:pathData="M272,468 C205,620 225,860 470,962 C655,1038 860,975 945,890 C800,955 600,962 458,897 C318,832 258,690 272,468 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient android:type="linear" android:startX="0" android:startY="400" android:endX="0" android:endY="1000">
+                    <item android:offset="0" android:color="#FFFBF6EF" />
+                    <item android:offset="1" android:color="#FFEBDDCD" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Ayunan karamel -->
+        <path android:pathData="M553,272 C380,300 262,450 276,620 C292,805 470,935 680,942 C862,950 1012,830 1035,700 C1043,642 1027,590 995,548 C1010,642 980,762 880,822 C780,882 620,892 500,852 C380,812 328,700 340,580 C352,460 430,330 553,272 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient android:type="linear" android:startX="300" android:startY="300" android:endX="900" android:endY="950">
+                    <item android:offset="0" android:color="#FFE8AA62" />
+                    <item android:offset="1" android:color="#FFB5713D" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Koin -->
+        <path android:pathData="M615,448 a122,122 0 1,0 244,0 a122,122 0 1,0 -244,0">
+            <aapt:attr name="android:fillColor">
+                <gradient android:type="linear" android:startX="615" android:startY="326" android:endX="859" android:endY="570">
+                    <item android:offset="0" android:color="#FFE8AA62" />
+                    <item android:offset="1" android:color="#FFB5713D" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:strokeColor="@color/brand_paper"
+            android:strokeWidth="18"
+            android:pathData="M652,448 A85,85 0 0 1 822,448" />
+        <!-- Tepi gelap dompet -->
+        <path
+            android:strokeColor="@color/brand"
+            android:strokeWidth="36"
+            android:strokeLineJoin="round"
+            android:pathData="M410,445 H945 V805 A25,25 0 0 1 920,830 H585 C485,830 410,755 410,655 Z" />
+        <!-- Badan dompet & dua lipatan atas -->
+        <path android:pathData="M410,445 H945 V805 A25,25 0 0 1 920,830 H585 C485,830 410,755 410,655 Z M450,400 H612 V445 H410 V440 A40,40 0 0 1 450,400 Z M868,400 H905 A40,40 0 0 1 945,440 V445 H868 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient android:type="linear" android:startX="0" android:startY="400" android:endX="0" android:endY="830">
+                    <item android:offset="0" android:color="#FFFBF6EF" />
+                    <item android:offset="1" android:color="#FFEFE3D5" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Celah bukaan dompet -->
+        <path
+            android:strokeColor="@color/brand"
+            android:strokeWidth="20"
+            android:strokeLineCap="round"
+            android:pathData="M458,446 H606" />
+        <!-- Pengait -->
+        <path
+            android:fillColor="@color/brand"
+            android:pathData="M784,566 H952 A24,24 0 0 1 976,590 V690 A24,24 0 0 1 952,714 H784 A24,24 0 0 1 760,690 V590 A24,24 0 0 1 784,566 Z" />
+        <path android:pathData="M794,585 H952 A14,14 0 0 1 966,599 V681 A14,14 0 0 1 952,695 H794 A14,14 0 0 1 780,681 V599 A14,14 0 0 1 794,585 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient android:type="linear" android:startX="780" android:startY="585" android:endX="966" android:endY="695">
+                    <item android:offset="0" android:color="#FFE8AA62" />
+                    <item android:offset="1" android:color="#FFB5713D" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:fillColor="@color/brand_paper"
+            android:pathData="M873,640 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" />
+    </group>
+</vector>

@@ -1,0 +1,12 @@
+# Konfigurasi Supabase CLI untuk Duitku (pengaturan lain memakai bawaan CLI).
+project_id = "duitku"
+
+[functions.ai-assistant]
+verify_jwt = true
+
+[functions.scan-receipt]
+verify_jwt = true
+
+# Dipanggil oleh Telegram (tanpa JWT); keaslian dicek lewat X-Telegram-Bot-Api-Secret-Token.
+[functions.telegram-webhook]
+verify_jwt = false

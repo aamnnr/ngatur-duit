@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="1080" height="1080">
+  <!-- Ikon Duitku "Uang dan koin". Master untuk ic_launcher_foreground.xml (koordinat sama). -->
+  <!-- Area aman ikon adaptif: lingkaran r=33 di tengah (54,54). -->
+  <rect width="108" height="108" fill="#3B2F2A"/>
+  <g transform="translate(0.5 -1.5)">
+    <!-- Uang kertas -->
+    <g transform="rotate(-14 50 50)">
+      <rect x="26" y="36" width="46" height="28" rx="4" fill="#F1ECE8"/>
+      <rect x="29.5" y="39.5" width="39" height="21" rx="2.5" fill="none" stroke="#C8905E" stroke-width="2"/>
+      <circle cx="49" cy="50" r="5.5" fill="none" stroke="#C8905E" stroke-width="2"/>
+    </g>
+    <!-- Celah gelap agar koin terpisah dari uang -->
+    <circle cx="65" cy="63" r="18.5" fill="#3B2F2A"/>
+    <!-- Koin -->
+    <circle cx="65" cy="63" r="16" fill="#C8905E"/>
+    <circle cx="65" cy="63" r="12.2" fill="none" stroke="#3B2F2A" stroke-width="1.8"/>
+    <!-- "Rp" sebagai garis (tanpa font) -->
+    <g fill="none" stroke="#3B2F2A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M58.5,68 V58 H61.4 A2.6,2.6 0 0 1 61.4,63.2 H58.5 M61,63.2 L63.4,68"/>
+      <path d="M66,62 V71.4 M66,65 A2.7,3 0 1 0 71.4,65 A2.7,3 0 1 0 66,65"/>
+    </g>
+  </g>
+</svg>

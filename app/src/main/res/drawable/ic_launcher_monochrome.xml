@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Versi satu warna logo v3 untuk ikon bertema (Android 13+). Sistem hanya memakai alpha,
+  jadi dompet digambar sebagai garis dan kedua ayunan sebagai bidang penuh.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.078"
+        android:scaleY="0.078"
+        android:translateX="5.33"
+        android:translateY="2.91">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M272,468 C205,620 225,860 470,962 C655,1038 860,975 945,890 C800,955 600,962 458,897 C318,832 258,690 272,468 Z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M553,272 C380,300 262,450 276,620 C292,805 470,935 680,942 C862,950 1012,830 1035,700 C1043,642 1027,590 995,548 C1010,642 980,762 880,822 C780,882 620,892 500,852 C380,812 328,700 340,580 C352,460 430,330 553,272 Z" />
+        <!-- Koin (garis) -->
+        <path
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="26"
+            android:pathData="M628,430 A110,110 0 0 1 846,430" />
+        <!-- Dompet (garis) -->
+        <path
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="28"
+            android:strokeLineJoin="round"
+            android:pathData="M430,445 H925 V800 A15,15 0 0 1 910,815 H590 C495,815 430,750 430,655 Z" />
+        <!-- Pengait -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M794,585 H952 A14,14 0 0 1 966,599 V681 A14,14 0 0 1 952,695 H794 A14,14 0 0 1 780,681 V599 A14,14 0 0 1 794,585 Z" />
+    </group>
+</vector>

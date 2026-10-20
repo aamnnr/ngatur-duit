@@ -1,0 +1,13 @@
+# Normalisasi akhir baris: repo memakai LF, file batch Windows tetap CRLF.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+gradlew text eol=lf
+
+# Berkas biner
+*.jar binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.apk binary
+*.aab binary

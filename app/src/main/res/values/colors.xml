@@ -1,0 +1,7 @@
+<resources>
+    <!-- Palet Kopi, lihat DESIGN.md -->
+    <color name="brand">#2B1D18</color>
+    <color name="brand_accent">#CF9156</color>
+    <color name="brand_bg">#F8F6F3</color>
+    <color name="brand_paper">#FBF6EF</color>
+</resources>

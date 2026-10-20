@@ -1,0 +1,38 @@
+# --- Android / Gradle ---------------------------------------------------
+.gradle/
+.kotlin/
+build/
+/captures
+.externalNativeBuild
+.cxx
+*.hprof
+*.iml
+
+# Konfigurasi lokal & rahasia (SDK path, URL/kunci Supabase) — jangan di-commit
+local.properties
+*.keystore
+*.jks
+keystore.properties
+.env
+.env.*
+
+# Hasil build
+*.apk
+*.aab
+app/release/
+app/debug/
+
+# --- Supabase CLI -------------------------------------------------------
+# Berisi project ref & URL pooler hasil `supabase link`
+supabase/.temp/
+supabase/.branches/
+
+# --- Node (Supabase CLI via npm/pnpm) ----------------------------------
+node_modules/
+
+# --- IDE / OS -----------------------------------------------------------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

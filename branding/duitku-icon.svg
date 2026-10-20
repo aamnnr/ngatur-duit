@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="1080" height="1080">
+  <!-- Ikon Duitku v3 (master untuk ic_launcher_foreground.xml; koordinat & skala sama). Area aman: lingkaran r=33 di (54,54). -->
+  <defs>
+    <linearGradient id="caramel" x1="300" y1="300" x2="900" y2="950" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E8AA62"/><stop offset="1" stop-color="#B5713D"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0" y1="400" x2="0" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBF6EF"/><stop offset="1" stop-color="#EBDDCD"/>
+    </linearGradient>
+  </defs>
+  <rect width="108" height="108" fill="#2B1D18"/>
+  <g transform="translate(5.33 2.91) scale(0.078)">
+  <!-- Ayunan krem luar -->
+  <path fill="url(#cream)" d="M272,468 C205,620 225,860 470,962 C655,1038 860,975 945,890 C800,955 600,962 458,897 C318,832 258,690 272,468 Z"/>
+  <!-- Ayunan karamel -->
+  <path fill="url(#caramel)" d="M553,272 C380,300 262,450 276,620 C292,805 470,935 680,942 C862,950 1012,830 1035,700 C1043,642 1027,590 995,548 C1010,642 980,762 880,822 C780,882 620,892 500,852 C380,812 328,700 340,580 C352,460 430,330 553,272 Z"/>
+  <!-- Koin -->
+  <circle cx="737" cy="448" r="122" fill="url(#caramel)"/>
+  <path d="M652,448 A85,85 0 0 1 822,448" fill="none" stroke="#FBF6EF" stroke-width="18"/>
+  <!-- Badan dompet -->
+  <path fill="none" stroke="#2B1D18" stroke-width="36" stroke-linejoin="round" d="M410,445 H945 V805 A25,25 0 0 1 920,830 H585 C485,830 410,755 410,655 Z"/>
+  <path fill="url(#cream)" d="M410,445 H945 V805 A25,25 0 0 1 920,830 H585 C485,830 410,755 410,655 Z"/>
+  <path fill="url(#cream)" d="M450,400 H612 V445 H410 V440 A40,40 0 0 1 450,400 Z"/>
+  <path fill="url(#cream)" d="M868,400 H905 A40,40 0 0 1 945,440 V445 H868 Z"/>
+  <path d="M458,446 H606" stroke="#2B1D18" stroke-width="20" stroke-linecap="round"/>
+  <!-- Pengait -->
+  <rect x="760" y="566" width="216" height="148" rx="24" fill="#2B1D18"/>
+  <rect x="780" y="585" width="186" height="110" rx="14" fill="url(#caramel)"/>
+  <circle cx="903" cy="640" r="30" fill="#FBF6EF"/>
+  </g>
+</svg>

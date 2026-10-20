@@ -1,0 +1,15 @@
+{
+  "name": "duitku",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Alat bantu backend Duitku (Supabase CLI). Aplikasi Android ada di folder app/.",
+  "scripts": {
+    "db:push": "supabase db push",
+    "functions:deploy": "supabase functions deploy ai-assistant scan-receipt telegram-webhook --use-api",
+    "functions:check": "cd supabase/functions && npx -y deno@2 check ai-assistant/index.ts scan-receipt/index.ts telegram-webhook/index.ts",
+    "functions:test": "cd supabase/functions && npx -y deno@2 test --allow-env _shared/drafts_test.ts"
+  },
+  "devDependencies": {
+    "supabase": "^2.121.0"
+  }
+}
