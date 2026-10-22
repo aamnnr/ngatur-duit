@@ -10,7 +10,7 @@ Semua fitur di [PRD.md](PRD.md) sudah dibuat dan terkompilasi; uji menyeluruh di
 - Rencana: batas bulanan, anggaran per kategori, target tabungan, tagihan rutin, kalkulator realita
 - Otomatisasi: auto-import notifikasi bank/e-wallet, scan struk & asisten AI (Gemini), bot Telegram, Inbox, input suara
 - Akun & keamanan: login email OTP, sinkron Supabase, PIN & sidik jari, backup/restore JSON
-- Kenyamanan: desain v2 soft-neumorphic ([DESIGN.md](DESIGN.md)), widget, pengingat harian, peringatan anggaran, sembunyikan saldo
+- Kenyamanan: desain v2 soft-neumorphic ([DESIGN.md](DESIGN.md)), widget saldo & widget pengeluaran (hari/minggu/bulan), pengingat harian, peringatan anggaran, sembunyikan saldo
 
 ## Setup & build
 Butuh JDK 17+ dan Android SDK (platform 36).

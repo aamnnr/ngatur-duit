@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Duitku</string>
     <string name="widget_description">Saldo total dan tombol catat cepat</string>
+    <string name="spending_widget_description">Pengeluaran hari ini, minggu ini, dan bulan ini</string>
 </resources>

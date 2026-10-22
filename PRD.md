@@ -50,7 +50,7 @@ Versi 1.0 mencakup semua fitur yang dipetakan dari Catat-in, minus monetisasi, d
 - Pencatatan, dompet, kategori, multi-profil, riwayat, Insight, laporan & ekspor.
 - Anggaran, target tabungan, tagihan rutin, kalkulator realita.
 - Auto-import notifikasi bank/e-wallet, scan struk, input suara, asisten AI, bot Telegram, Inbox draf.
-- Akun (email OTP), sinkron & backup ke Supabase, PIN & biometrik, widget, pengingat, tema terang/gelap.
+- Akun (email OTP), sinkron & backup ke Supabase, PIN & biometrik, widget (saldo & catat cepat; pengeluaran hari/minggu/bulan), pengingat, tema terang/gelap.
 
 **Tidak termasuk:**
 

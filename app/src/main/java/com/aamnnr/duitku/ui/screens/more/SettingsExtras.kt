@@ -52,6 +52,7 @@ import com.aamnnr.duitku.security.biometricAvailable
 import com.aamnnr.duitku.ui.LocalUndo
 import com.aamnnr.duitku.ui.appContainer
 import com.aamnnr.duitku.widget.DuitkuWidgetReceiver
+import com.aamnnr.duitku.widget.SpendingWidgetReceiver
 import com.aamnnr.duitku.work.Scheduler
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -160,18 +161,25 @@ internal fun AutomationAndSecurity(onOpenInsight: () -> Unit) {
                 setFlag(Flags.BUDGET_ALERTS, !alerts)
             },
         )
+        fun pinWidget(receiver: Class<*>) {
+            val manager = AppWidgetManager.getInstance(context)
+            val provider = ComponentName(context, receiver)
+            val pinned = Build.VERSION.SDK_INT >= 26 && manager.isRequestPinAppWidgetSupported &&
+                manager.requestPinAppWidget(provider, null, null)
+            if (!pinned) {
+                undo.run("Tahan layar utama → Widget → pilih Duitku") {}
+            }
+        }
         SettingRow(
             Icons.Outlined.Widgets,
-            "Tambah widget ke layar utama",
-            onClick = {
-                val manager = AppWidgetManager.getInstance(context)
-                val provider = ComponentName(context, DuitkuWidgetReceiver::class.java)
-                val pinned = Build.VERSION.SDK_INT >= 26 && manager.isRequestPinAppWidgetSupported &&
-                    manager.requestPinAppWidget(provider, null, null)
-                if (!pinned) {
-                    undo.run("Tahan layar utama → Widget → pilih Duitku") {}
-                }
-            },
+            "Widget saldo & catat cepat",
+            onClick = { pinWidget(DuitkuWidgetReceiver::class.java) },
+        )
+        SettingRow(
+            Icons.Outlined.Widgets,
+            "Widget pengeluaran",
+            value = "Hari · Minggu · Bulan",
+            onClick = { pinWidget(SpendingWidgetReceiver::class.java) },
         )
     }
 

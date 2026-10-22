@@ -56,7 +56,10 @@ class DuitkuApp : Application() {
         @OptIn(kotlinx.coroutines.FlowPreview::class)
         container.database.syncDao().observeChangeMarker()
             .debounce(3_000)
-            .onEach { com.aamnnr.duitku.widget.DuitkuWidget.refresh(this) }
+            .onEach {
+                com.aamnnr.duitku.widget.DuitkuWidget.refresh(this)
+                com.aamnnr.duitku.widget.SpendingWidget.refresh(this)
+            }
             .launchIn(appScope)
     }
 }
